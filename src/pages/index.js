@@ -3,7 +3,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import Post from "../components/Post"
 import PrimaryLayout from "../layouts/PrimaryLayout"
-import { Helmet } from "react-helmet"
 
 export default ({ data }) => {
   console.log(data)

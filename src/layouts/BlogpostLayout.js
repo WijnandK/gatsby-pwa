@@ -13,7 +13,6 @@ const BlogpostLayout = ({ data }) => {
         title={innertext(post.title)}
         description={innertext(post.excerpt)}
         image={post.featured_media.source_url}
-        keywords={post.categories.map(res => res.name).join(", ")}
       />
       <Header />
       <div className="container">
