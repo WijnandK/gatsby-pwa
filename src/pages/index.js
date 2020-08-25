@@ -11,6 +11,7 @@ export default ({ data }) => {
       {data.allWordpressPost.nodes.map((node, i) => (
         <Post
           key={i}
+          alt={node.featured_media.slug}
           title={node.title}
           excerpt={node.excerpt}
           image={node.featured_media.source_url}
